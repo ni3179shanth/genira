@@ -1,0 +1,127 @@
+
+<html>
+<head>
+    
+	
+	<title>Drawing</title>
+    <link rel="icon" href="./logo1.png">
+	<style>
+		body{
+			background-color: white;
+		}
+		
+		.hover-container {
+    position: relative;
+	border-radius: 10px;
+    display: inline-block;
+	margin: 20px;
+    overflow: hidden;
+}
+
+.hover-image {
+    transition: transform 0.3s;
+}
+
+.hover-image:hover {
+    transform: scale(1.1);
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	font-size:30px;
+	border-radius: 5px;
+	color:white;
+	background-color:rgb(31, 21, 21);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+a{
+	color:rebeccapurple;
+	font-size: medium;
+}
+.hover-container:hover .hover-text {
+    opacity: 1;
+}
+
+h1{
+	color:black;
+font-size:70px;
+}
+img {
+	border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+span{
+	color: violet;
+}
+.p{
+	font-size:50px;
+}
+.footer{
+    background-color: #3d3d3d;
+    text-align: center;
+}
+
+.footer .share a{
+    margin: 0 .3rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--white);
+    background-color: #d39964;
+}
+.footer .share a:hover{
+    background-color: #d857bc;
+}
+.footer .credit{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: 2.5rem;
+    border-top: .3rem solid var(--light-white);
+}
+
+
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Drawing</h1>
+    <div class="hover-container">
+	 <img style="height:20rem;width: 25rem;" src="./1.jpg" alt="Image" class="hover-image">
+        
+    </div>
+	
+	<div class="hover-container">
+		  <img style="height:20rem;width: 25rem;" src="./2.jpg" alt="Image" class="hover-image">
+       
+    </div>
+	
+<!--  -->
+	<h1 style="text-align: center;">Ordering Projects</h1>
+   <center> <div  class="hover-container">
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSfncfHutGyLIM-HQ-36ARaPXUPp5MNgsLiUmzhXBMufW2WxVw/viewform" >    <img style="height:20rem;width: 25rem;" src="./Click here and fill Google Forms.png" alt="Image" class="hover-image"></a>
+        <p class="hover-text">Click here and fill Google Forms<span>Click image</span></p>
+    </div></center>
+	<!--  -->
+	
+	<footer class="footer">
+		<section>
+			<div class="share">
+				<a href="https://www.facebook.com/profile.php?id=61553027347777" class="fab fa-facebook-f"></a>
+				
+				<a href="https://www.linkedin.com/in/geni-ra-53a764294/" class="fab fa-linkedin"></a>
+				<a href="https://www.youtube.com/@Pain_amv" class="fab fa-youtube"></a>
+			</div>
+			<div class="credit">&copy; Developed by <span>Geni</span>|all rights reserved!
+			</div>
+		</section>
+	</footer>
+</body>
+</html>
